@@ -1,5 +1,5 @@
 from typing import List, Optional
-from src.domain.models.product import Product
+from src.domain.models.product import Product # type: ignore
 
 class InMemoryProductRepository:
     def __init__(self):
